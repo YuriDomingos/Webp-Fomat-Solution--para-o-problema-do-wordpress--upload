@@ -26,8 +26,9 @@ function webp_is_displayable($result, $path) {
         }
     }
 
+
     return $result;
 }
-add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 2);
+add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 4/2);
 
 
